@@ -1,0 +1,68 @@
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+}
+legend{
+    margin-left: 60px;
+    padding: 8px;
+    border: 3px solid black;
+}
+label{
+    display: flex;
+    margin:auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#firstname{
+    padding:20px;
+}
+fieldset{
+    width: 650px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.languages{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.next{
+    display: flex;
+}
+#date {
+    width: 70px;
+    margin-left: 10px;
+}
+#status{
+    width: 70px;
+}
+#comments{
+    height: 50px;
+    width:200px;
+}
+label[for="comments"]{
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    padding-left: 20px;
+    font-weight:100;
+}
+.the_end{
+    display: flex;
+    justify-content: space-around;
+}
+label[for="signup"]{
+    width: 56px;
+    margin-right: 20px;
+}
+label[for="terms"]{
+    width: 56px;
+    text-align:justify;
+}
